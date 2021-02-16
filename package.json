@@ -1,0 +1,25 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chrome-remote-interface": "^0.29.0",
+    "cross-env": "^7.0.3",
+    "cypress": "^6.4.0"
+  },
+  "devDependencies": {
+    "cypress-multi-reporters": "^1.4.0",
+    "mocha-junit-reporter": "^2.0.0",
+    "mochawesome": "^6.2.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.1.0",
+    "typescript": "^4.1.5"
+  },
+  "scripts": {
+    "cypress:open": "cypress run --headless --browser chrome --spec ./cypress/integration/examples/window.spec.js",
+    "report": "cypress open --browser chrome"
+  },
+  "author": "",
+  "license": "ISC"
+}

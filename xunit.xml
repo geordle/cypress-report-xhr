@@ -1,0 +1,5 @@
+<testsuite name="Mocha Tests" tests="3" failures="0" errors="0" skipped="0" timestamp="Thu, 11 Feb 2021 19:59:53 GMT" time="1.477">
+<testcase classname="Window" name="cy.window() - get the global window object" time="0.228"/>
+<testcase classname="Window" name="cy.document() - get the document object" time="0.089"/>
+<testcase classname="Window" name="cy.title() - get the title" time="0.096"/>
+</testsuite>

@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "baseUrl": "cypress",
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": [
+      "ES2017",
+      "ES2016",
+      "ES2015",
+      "ES5",
+      "DOM",
+      "ES2020"
+    ],
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "build",
+    "strict": true,
+    "typeRoots": [
+      "@types"
+    ],
+    "types": [
+      "cypress",
+      "node",
+      "@types/testing-library__cypress"
+    ],
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "node_modules",
+    "build.ts",
+    "build"
+  ],
+  "include": [
+    "**/*.ts"
+  ],
+  "typeAcquisition": {
+    "enable": true
+  }
+}
